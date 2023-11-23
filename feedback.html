@@ -1,0 +1,27 @@
+<form action="feedback.php" method="post">
+    <link rel="stylesheet" type="text/css" href="feedback.css">
+    <h2>Feedback</h2>
+    <div class="form-group">
+      <label for="naam">Naam</label>
+      <input type="text" class="form-control" id="naam" name="naam" required>
+    </div>
+    <div class="form-group">
+      <label for="email">E-mailadres</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="rating">Hoe zou u onze website beoordelen?</label>
+      <select class="form-control" id="rating" name="rating">
+        <option value="1">1 ster</option>
+        <option value="2">2 sterren</option>
+        <option value="3">3 sterren</option>
+        <option value="4">4 sterren</option>
+        <option value="5">5 sterren</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="feedback">Feedback</label>
+      <textarea class="form-control" id="feedback" name="feedback" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Verzenden</button>
+  </form>

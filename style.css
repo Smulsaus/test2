@@ -1,0 +1,44 @@
+body {
+    background-image: url("c:/Users/youri_97zgf32/Downloads/achtergrondd.jpg");
+  }
+          body {
+              font-family: Arial, sans-serif;
+              background-color: #ffffff;
+              text-align: center;
+          }
+          
+          .profile-card {
+              background-color: #ffffff;
+              width: 300px;
+              margin: 20px auto;
+              padding: 20px;
+              border-radius: 10px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          }
+          
+          .profile-picture {
+              border-radius: 50%;
+              width: 150px;
+              height: 150px;
+              margin: 0 auto 10px;
+              display: block;
+          }
+          
+          .profile-name {
+              font-size: 24px;
+              font-weight: bold;
+              margin: 10px 0;
+          }
+          
+          .profile-title {
+              font-size: 18px;
+              color: #888;
+          }
+          
+          .contact-info {
+              margin-top: 20px;
+          }
+          
+          .contact-info p {
+              margin: 5px 0;
+          }

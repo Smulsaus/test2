@@ -1,0 +1,13 @@
+/* Center test */
+p, h1 {
+    text-align: center;
+}
+h2 {
+    text-align-last: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    font-size: 20px;
+}
